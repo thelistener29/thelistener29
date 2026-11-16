@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="330" viewBox="0 0 640 330" role="img" aria-label="Animated skill proficiency bars">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B91C1C"/>
+      <stop offset="100%" stop-color="#E8E8E8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="330" rx="14" fill="#0D1117"/>
+  <text x="32" y="46" font-family="JetBrains Mono, Consolas, monospace" font-size="20" font-weight="700" fill="#E8E8E8">Skill Proficiency</text>
+  <line x1="32" y1="62" x2="608" y2="62" stroke="#B91C1C" stroke-width="2"/>
+
+  <!-- Python 92% -->
+  <text x="32" y="100" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#C9D1D9">Python</text>
+  <rect x="240" y="89" width="290" height="14" rx="7" fill="#1A1A1A"/>
+  <rect x="240" y="89" width="0" height="14" rx="7" fill="url(#bar)">
+    <animate attributeName="width" from="0" to="267" dur="1.6s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;267"/>
+  </rect>
+  <text x="542" y="100" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#B91C1C">92%</text>
+
+  <!-- C / C++ 85% -->
+  <text x="32" y="140" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#C9D1D9">C / C++</text>
+  <rect x="240" y="129" width="290" height="14" rx="7" fill="#1A1A1A"/>
+  <rect x="240" y="129" width="0" height="14" rx="7" fill="url(#bar)">
+    <animate attributeName="width" from="0" to="247" dur="1.6s" begin="0.45s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;247"/>
+  </rect>
+  <text x="542" y="140" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#B91C1C">85%</text>
+
+  <!-- Reverse Engineering 88% -->
+  <text x="32" y="180" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#C9D1D9">Reverse Engineering</text>
+  <rect x="240" y="169" width="290" height="14" rx="7" fill="#1A1A1A"/>
+  <rect x="240" y="169" width="0" height="14" rx="7" fill="url(#bar)">
+    <animate attributeName="width" from="0" to="255" dur="1.6s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;255"/>
+  </rect>
+  <text x="542" y="180" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#B91C1C">88%</text>
+
+  <!-- Security / Networking 80% -->
+  <text x="32" y="220" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#C9D1D9">Security &amp; Networking</text>
+  <rect x="240" y="209" width="290" height="14" rx="7" fill="#1A1A1A"/>
+  <rect x="240" y="209" width="0" height="14" rx="7" fill="url(#bar)">
+    <animate attributeName="width" from="0" to="232" dur="1.6s" begin="0.95s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;232"/>
+  </rect>
+  <text x="542" y="220" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#B91C1C">80%</text>
+
+  <!-- JavaScript / TypeScript 78% -->
+  <text x="32" y="260" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#C9D1D9">JavaScript / TypeScript</text>
+  <rect x="240" y="249" width="290" height="14" rx="7" fill="#1A1A1A"/>
+  <rect x="240" y="249" width="0" height="14" rx="7" fill="url(#bar)">
+    <animate attributeName="width" from="0" to="226" dur="1.6s" begin="1.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;226"/>
+  </rect>
+  <text x="542" y="260" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#B91C1C">78%</text>
+
+  <!-- Linux / Systems 90% -->
+  <text x="32" y="300" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#C9D1D9">Linux &amp; Systems</text>
+  <rect x="240" y="289" width="290" height="14" rx="7" fill="#1A1A1A"/>
+  <rect x="240" y="289" width="0" height="14" rx="7" fill="url(#bar)">
+    <animate attributeName="width" from="0" to="261" dur="1.6s" begin="1.45s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" keyTimes="0;1" values="0;261"/>
+  </rect>
+  <text x="542" y="300" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#B91C1C">90%</text>
+</svg>
